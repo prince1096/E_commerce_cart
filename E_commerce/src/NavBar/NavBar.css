@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f5f9;
+  /* background-color: #9a9a9a; */
+  padding: 15px;
+  height: 90px;
+  font-family: sans-serif;
+}
+
+.nav-links_category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links NavLink {
+  /* text-decoration: none; */
+  padding: 10px;
+}
+
+.nav_logo {
+  /* font-size: "268px"; */
+}
+
+.cart_logo {
+  text-decoration: none;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav_link_cart {
+  font-size: 26px;
+}
+
+.kid_icon {
+  font-size: 20px;
+}
+
+.men_icons {
+  fontsize: medium;
+}
+
+.second_header,
+.third_header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.input_header {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
