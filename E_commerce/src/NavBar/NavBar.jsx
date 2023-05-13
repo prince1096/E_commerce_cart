@@ -23,14 +23,13 @@ const NavBar = () => {
           <NavLink to="/" className="nav_link">
             <div className="logo_icons">
               <Diversity2Icon fontSize="large" />
+              {/* <FontAwesomeIcon icon={faCottonBureau} /> */}
               <div>VastraCart</div>
             </div>
           </NavLink>
         </div>
 
         <div className="second_header nav-links_category">
-          {/* <div className="nav_logo_links"> */}
-
           <NavLink to="/" className="nav_link">
             Explore
           </NavLink>
@@ -39,7 +38,7 @@ const NavBar = () => {
             {" "}
             <div>
               Men
-              <FontAwesomeIcon icon={faPerson} />
+              <FontAwesomeIcon className="logo_men" icon={faPerson} />
             </div>
           </NavLink>
 
@@ -47,18 +46,17 @@ const NavBar = () => {
             {" "}
             <div>
               Women
-              <FontAwesomeIcon icon={faPersonDress} />
+              <FontAwesomeIcon className="logo_women" icon={faPersonDress} />
             </div>
           </NavLink>
 
           <NavLink to="/" className="nav_link nav_Kids">
             {" "}
-            <div className="kids_name">
+            <div>
               Kids
-              <FontAwesomeIcon icon={faChildReaching} className="kid_icon" />
+              <FontAwesomeIcon icon={faChildReaching} className="logo_kid" />
             </div>
           </NavLink>
-          {/* </div> */}
         </div>
 
         <div>
